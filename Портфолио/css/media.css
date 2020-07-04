@@ -1,0 +1,82 @@
+@media (max-width: 1140px) {
+    
+
+   .footer-row {
+       flex-direction: column-reverse;
+       align-items: center;
+       text-align: center;
+   }
+
+   .footer-row > * + * {
+       margin-bottom: 50px;
+   }
+
+   .footer-icons {
+       align-self: center;
+   }
+
+   .footer-copyright-name {
+       font-size: 18px;
+   }
+
+   .footer-copyright p {
+       font-size: 14px;
+   }
+
+}
+
+
+/* для экранов с шириной до 760px*/
+
+@media (max-width: 760px) {
+    .header-title {
+        font-size: 32px;
+    }
+
+    .header-subtitle {
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+    .portfolio {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+
+    .section-header {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .portfolio-cards-wrapper {
+        justify-content: center;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card:nth-last-child(2) {
+        margin-bottom: 30px;
+    }
+
+    .card-img {
+        margin-bottom: 10px;
+    }
+
+    .card-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+
+   
+
+    
+}
